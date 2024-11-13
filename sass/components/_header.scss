@@ -1,0 +1,74 @@
+header {
+  /* position: fixed; */
+  top: 0;
+  align-items: center;
+}
+
+.header-logos {
+  display: flex;
+  gap: 21px;
+}
+
+.text-logo {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.header-nav {
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  display: flex;
+  outline: 2px solid red;
+  /* width: 800px; */
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+}
+
+.link {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.header-sign {
+  display: flex;
+  gap: 41px;
+}
+
+.header-login {
+  width: 118px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: transparent;
+  border: none;
+  color: #fdf5ff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.header-signup {
+  width: 118px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #ff6e30;
+  border: none;
+  color: #fdf5ff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
